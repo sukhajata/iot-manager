@@ -1,0 +1,31 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"extends": ["plugin:prettier/recommended", "plugin:react/recommended"],
+	"plugins": ["react", "prettier"],
+	"settings": {
+		"react": {
+			"createClass": "createReactClass",
+			"pragma": "React",
+			"version": "detect"
+		}
+	},
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+	},
+	"rules": {
+		"prettier/prettier": "error",
+		"indent": ["error", "tab"],
+		"linebreak-style": ["error", "unix"],
+		"quotes": ["error", "single"],
+		"semi": ["error", "always"],
+		"react/no-direct-mutation-state:": "error",
+		"react/react-in-jsx-scope": "error"
+	}
+}

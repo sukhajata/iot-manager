@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test against snapshot 1`] = `
+<ExponentLinearGradient
+  colors={
+    Array [
+      4293821166,
+      4278190219,
+    ]
+  }
+  endPoint={
+    Array [
+      1,
+      1,
+    ]
+  }
+  startPoint={
+    Array [
+      0,
+      0,
+    ]
+  }
+  style={
+    Object {
+      "flex": 1,
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+      }
+    }
+  >
+    <Text>
+      
+    </Text>
+    <View>
+      <Text>
+        Username
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        onChangeText={[Function]}
+        style={
+          Object {
+            "borderColor": "gray",
+            "borderWidth": 1,
+            "height": 40,
+            "width": 200,
+          }
+        }
+        underlineColorAndroid="transparent"
+      />
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        secureTextEntry={true}
+        style={
+          Object {
+            "borderColor": "gray",
+            "borderWidth": 1,
+            "height": 40,
+            "width": 200,
+          }
+        }
+        underlineColorAndroid="transparent"
+      />
+      <Text>
+        Password
+      </Text>
+      <View
+        accessibilityRole="button"
+        accessibilityStates={Array []}
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#007AFF",
+                  "fontSize": 18,
+                  "padding": 8,
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            Sign in!
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</ExponentLinearGradient>
+`;

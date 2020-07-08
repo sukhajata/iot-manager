@@ -1,0 +1,40 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "test": "jest --watch --coverage=false",
+    "testing": "jest --watch --coverage=false --changedSince=origin/master",
+    "ci-test": "jest --forceExit --detectOpenHandles --runInBand || true",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^10.0.1",
+    "@taoqf/react-native-mqtt": "^3.0.4",
+    "axios": "^0.18.0",
+    "expo": "^32.0.0",
+    "expo-barcode-scanner": "^5.0.1",
+    "jwt-decode": "^2.2.0",
+    "native-base": "^2.12.1",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-navigation": "^3.9.1",
+    "sentry-expo": "^1.13.0"
+  },
+  "devDependencies": {
+    "@testing-library/react-native": "^4.0.6",
+    "babel-preset-expo": "^5.0.0",
+    "jest-expo": "^32.0.1"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!((jest-)?react-native|react-clone-referenced-element|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|sentry-expo|native-base))"
+    ],
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+    }
+  },
+  "private": true
+}

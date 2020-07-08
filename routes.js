@@ -1,0 +1,21 @@
+export default {
+  AUTH_LOADING_SCREEN: "AuthLoadingScreen",
+  APP: "App",
+  AUTH: "Auth",
+  SIGN_IN_SCREEN: "SignInScreen",
+  USER_CONFIRMATION_SCREEN: "UserConfirmationScreen",
+  HOME_SCREEN: "HomeScreen",
+  SEARCHING_SCREEN: "SearchingScreen",
+  SCANNING_SCREEN: "ScanningScreen",
+  DEVICE_LOCATION_SCREEN: "SiteLocationScreen",
+  DEVICE_ADDRESS_SCREEN: "DeviceAddressScreen",
+  INSTALL_TYPE_SCREEN: "InstallTypeScreen",
+  DEVICE_DETAILS_SCREEN: "DeviceDetailsScreen",
+  DEVICE_SUMMARY_SCREEN: "DeviceSummaryScreen",
+  DEVICE_TEST_SCREEN: "DeviceTestScreen",
+  COMMENTS_SCREEN: "CommentsScreen",
+  SITE_DETAILS_SCREEN: "SiteDetailsScreen",
+  SITE_SUMMARY_SCREEN: "SiteSummaryScreen",
+  INSTALL_HOME_SCREEN: "InstallHomeScreen",
+  EDIT_SITE_SCREEN: "EditSiteScreen"
+};

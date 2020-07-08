@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "PowerPilot Installer",
+    "slug": "powerpilot-installer",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app-icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.powerpilot.installer"
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "Electronet Technology",
+            "project": "powerpilot",
+            "authToken": "3fafb3da172c45109d71e04040f856950f89c3636e5a447a97b6bca05e1024c6"
+          }
+        }
+      ]
+    }
+  }
+}
