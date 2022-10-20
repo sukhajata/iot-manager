@@ -13,7 +13,7 @@
     "@expo/vector-icons": "^10.0.1",
     "@taoqf/react-native-mqtt": "^3.0.4",
     "axios": "^0.18.0",
-    "expo": "^32.0.0",
+    "expo": "^46.0.16",
     "expo-barcode-scanner": "^5.0.1",
     "jwt-decode": "^2.2.0",
     "native-base": "^2.12.1",
